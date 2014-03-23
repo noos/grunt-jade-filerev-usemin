@@ -1,0 +1,54 @@
+{
+  "name": "grunt-jade-filerev-usemin",
+  "version": "0.0.1",
+  "description": "replace references to script/css in jade file with minified revved script/css from filerev",
+
+  "homepage": "https://github.com/noos/grunt-jade-filerev-usemin",
+  "bugs": {
+    "url": "https://github.com/noos/grunt-jade-filerev-usemin/issues"
+  },
+  "author": {
+    "name": "Jun H. Sung",
+    "email": "jun@noos.com"
+  },
+  "keywords": [
+    "gruntplugin",
+    "jade",
+    "filerev",
+    "usemin",
+    "build",
+    "minify"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noos/grunt-jade-filerev-usemin.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "load-grunt-tasks": "~0.3.0",
+    "jshint-stylish": "~0.1.5",
+    "grunt-dev-update": "~0.4.6",
+    "grunt-contrib-uglify": "~0.3.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "readmeFilename": "README.md"
+}
