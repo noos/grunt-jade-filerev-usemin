@@ -87,12 +87,8 @@ link(rel='stylesheet', href='/test/compiled/style.min.23f8haf2.css')
 ```
 
 ### Available Options
-##### Prefix
-`{String} [prefix='']` This adds some flexibility to where you keep your public folder. It
-allows you to add a prefix to the path.
-
 ##### Deprefix_dest
-`{String} [deprefix_dest='']` This is nearly the opposite of what `prefix` does,
+`{String} [deprefix_dest='']` This is nearly the opposite of what `prefix` does in [grunt-jade-usemin](https://github.com/pgilad/grunt-jade-usemin).
 `Prefix` maps from server based href location to file location relative to Gruntfile, by prefixing.
 `Deprefix_dest` maps from file location (of the minified revved file) to server based href location, by stripping prefix.
 
