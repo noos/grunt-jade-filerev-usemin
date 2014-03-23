@@ -1,4 +1,4 @@
-# [grunt](http://gruntjs.com/)-jade-usemin
+# [grunt](http://gruntjs.com/)-[jade](http://jade-lang.com/)-[filerev](https://github.com/yeoman/grunt-filerev)-[usemin](https://github.com/yeoman/grunt-usemin)
 > Grunt plugin for replacing resources in jade files with minified and revved js & css files
 
 [![NPM Version](http://img.shields.io/npm/v/grunt-jade-filerev-usemin.svg)](https://npmjs.org/package/grunt-jade-filerev-usemin)
