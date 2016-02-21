@@ -2,7 +2,6 @@
   "name": "grunt-jade-filerev-usemin",
   "version": "0.0.1",
   "description": "replace references to script/css in jade file with minified revved script/css from filerev",
-
   "homepage": "https://github.com/noos/grunt-jade-filerev-usemin",
   "bugs": {
     "url": "https://github.com/noos/grunt-jade-filerev-usemin/issues"
@@ -42,7 +41,7 @@
     "grunt-contrib-uglify": "~0.3.2"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">=0.4.0"
   },
   "scripts": {
     "test": "grunt test"
